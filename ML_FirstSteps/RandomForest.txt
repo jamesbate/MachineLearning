@@ -1,0 +1,25 @@
+bootstrapping 
+sampling n times with replacement 
+1-1/e uniqueness
+random forest of decision trees
+tree either classifies or regresses based on the true/false questions
+each tree trained on different sample
+ensemble learning - using lots of predictors which might individually be quite bad 
+bootstrapping decolorates trees, reduces sensitivity to noise, decreases variance 
+
+cross validation can help get optimum tree number
+or out of bag error, each tree doesn't use 37%, use these to get an idea for error
+
+we now need to train a tree
+
+tree nodes can be binary or a threshold. to each node we assign (feature f,threshold t)
+each nodes asks the question - (f,t) is f greater than t?
+
+n_(f,t)
+e(Q,n_)
+G(n_) is what we want to optimise, by changing f and t
+
+We can get an idea for feature importance too.
+
+
+

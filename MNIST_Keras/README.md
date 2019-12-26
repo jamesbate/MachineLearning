@@ -1,0 +1,1 @@
+This project uses a convolutional neural network chain to train on the MNIST dataset. 
